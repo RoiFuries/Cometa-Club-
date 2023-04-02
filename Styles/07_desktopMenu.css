@@ -1,0 +1,43 @@
+
+
+.dessktop-menu{
+    width: 100px;
+    height: auto;
+    border: 1px solid var(--very-light-pink);
+    border-radius: 6px;
+    padding: 20px 20px 0 20px;
+}
+.dessktop-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dessktop-menu ul li:nth-child(1),
+.dessktop-menu ul li:nth-child(2) {
+font-weight: bold;}
+
+.dessktop-menu ul li {
+    text-align: end;
+}
+.dessktop-menu ul li:last-child{
+    padding-top: 20px;
+    border-top: 1px solid var(--very-light-pink);
+}
+.dessktop-menu ul li:last-child a {
+    color:  var(--hospital-green);
+    font-size: var(--sm);
+
+}
+.dessktop-menu ul li:last-child a:hover {
+    color:  var(--hospital-green);
+    font-size: var(--sm);
+    font-weight: bold;
+}
+
+.dessktop-menu ul li a {
+    color: var(--black);
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
