@@ -67,6 +67,11 @@
     justify-content: center;
 }
 
+.add-to-cart-button img{
+    width: 35px;
+    margin-right: 10px;
+}
+
 @media (max-width: 640px) {
     .product-detail{
         width: 100%;
